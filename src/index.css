@@ -122,3 +122,42 @@ footer.starCount {
   text-shadow: none;
   margin: 5px;
 }
+
+.nav{
+  height: 70px;
+  background-color: #251bb1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.title{
+  font-size: 30px;
+  color: #fff;
+  font-weight: 600px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  margin-left: 20px;
+
+}
+
+.cartContainer{
+  position: relative;
+  cursor: pointer;
+}
+
+.cartIcon{
+  height: 50px;
+  margin-right: 20px;
+}
+
+.cartCount{
+  background-color: orange;
+  border-radius: 50%;
+  padding: 4px 8px;
+  position: absolute;
+  right: 10px;
+  top: -5px;
+  font-size: 12px;
+}
